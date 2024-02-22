@@ -56,11 +56,6 @@ Semantic Search is an application that allows users to perform semantic searches
 python main.py --url http://example.com --model mistral
 ```
 
-## Credits
-
-- [Ollama](https://github.com/ollama-dev/ollama): Open-source language model for natural language understanding.
-- [Pinecone](https://www.pinecone.io/): Managed vector database service.
-- [Cohere](https://cohere.ai/): API for state-of-the-art natural language processing models.
 
 
 
