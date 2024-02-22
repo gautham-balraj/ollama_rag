@@ -21,13 +21,14 @@ import time
 from langchain.vectorstores import Pinecone as Pinecone_lang
 from langchain_core.runnables import RunnablePassthrough, RunnableParallel
 
-os.environ["COHERE_API_KEY"] = "mI4OwZL7dem6QMVrJZL4YKwudxu2OCf686D7vDaa"
+os.environ["COHERE_API_KEY"] = #cohere api key
 
 
 def index_creation(name):
     serverless = True
-    pc = Pinecone(api_key="cd53a434-012c-400d-b6eb-94b097d1e7f9")
-    os.environ["PINECONE_API_KEY"] = "cd53a434-012c-400d-b6eb-94b097d1e7f9"
+    PINECONE_API_KEY = # pinecone api key 
+    pc = Pinecone(api_key=PINECONE_API_KEY)
+    os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
     spec = ServerlessSpec(cloud="aws", region="us-west-2")
     index_name = name
 
